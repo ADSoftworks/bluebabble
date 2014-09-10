@@ -1,0 +1,224 @@
+/*
+ * default settings are being cleansed in global.css, so there's no need for it 
+ * here.
+ */
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}li:hover {
+	color: #FF7F00;
+	cursor: pointer;
+}
+
+ul {
+	background-image: url('../../images/gray.png');
+	padding: 5px;
+	margin-left: 10px;
+	text-align: center;
+	border: #AAA thin solid;
+}
+
+#amount_of_bottles {
+	color: #FF7F00;
+}
+
+#resdiv {
+	display: none;
+}
+
+#res_explain {
+	height: 250px;
+	overflow-y: scroll;
+	border: #AAA thin solid;
+	border-radius: 5px;
+}
+
+/* WARNING /// WARNING /// WARNING /// WARNING /// WARNING 
+*	THIS IS AN OVERRIDE, WITHOUT OUT IT THE RESPONSE WILL GO MISSING!!!
+*/
+#response {
+	display: block;
+}
+/* WARNING /// WARNING /// WARNING /// WARNING /// WARNING */
+
+#responses {
+	text-align: center;
+}
+
+h1 {
+    color: #FF7F00;
+    margin-top: -25px;
+    padding: 10px;
+}
+
+#send_how_trigger {
+    padding: 5px;
+    margin-left: 100px;
+    border: #AAA solid thin;
+    width: 425px;
+} #send_how_trigger:hover {
+    background-color: #FF7F00; 
+}
+
+#resdiv {
+	text-align: center;
+}
+
+#receival {
+	margin-top: 20px;
+	text-align: center;
+	width: 400px;
+	margin-left: 97px;
+}
+
+#button_get_message {
+	width: 620px;
+	height: 50px;	
+}
+
+#bottles_content {
+	text-align: center;
+	margin-left: -10px;
+}
+
+#send_how {
+    margin-left: 100px;
+    height: 150px;
+    overflow-y: scroll;
+    width: 425px;
+    display: none;
+}
+#send_how > h2 {
+    color: #FF7F00;
+}
+
+#send_message {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 415px;
+    height: 158px;
+    max-width: 415px;
+}
+
+#send_button {
+    margin-left: 185px;
+    width: 250px;
+}
+
+#app > .interface {
+    width: 620px;
+    height: 340px;
+    margin-top: 20px;
+    margin-left: -120px;
+    border: #AAA solid thick;
+    background-image: url("../../images/gray.png");
+    padding: 15px;
+    
+    overflow-y: auto;
+    display: none;
+    
+}
+
+#title {
+    /* this has been modified to use epilepsises when you shrink down
+    too much. aaand that's about it I think, I don't know man
+    it's too damn late right now.*/
+    font-size: 60px;
+    color: #222;
+    margin-left: 50px;
+    text-shadow: 0px 0px 5px #AAA;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.app_input {
+    padding: 5px;
+    border-radius: 5px;
+    border: #AAA thin solid;
+}
+
+.app_submit {
+    /* generated background */
+    background: #ffb76b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(50%,#ffa73d), color-stop(51%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */ 
+    
+    padding: 5px;
+    border-radius: 5px;
+    border: #AAA thin solid;
+}.app_submit:hover {
+    /* generated background */
+    background: #ff7f04; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff7f04 0%, #ff7c00 51%, #ffa73d 52%, #ffb76b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7f04), color-stop(51%,#ff7c00), color-stop(52%,#ffa73d), color-stop(100%,#ffb76b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f04', endColorstr='#ffb76b',GradientType=0 ); /* IE6-9 */
+    
+    color: #FFF;
+}
+
+/* settings css below */
+#blacklist_list {
+    background-color: #FAFAFA;
+    height: 100px;
+    width: 49.5%;
+    border: #AAA thin solid;
+    border-radius: 5px;
+    /*padding: 15px;*/
+    /*font-size: 3px;*/
+}
+
+#blacklist_words {
+    font-size: 9pt;
+    padding: 5px;
+}
+
+#blacklist_add_input {
+    width: 48%;
+}
+
+#blacklist_add_button {
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+}
+
+/* TOOLTIP */
+.ui-tooltip {
+    
+    width: 15em;
+    
+    border: #FF7F00 solid thin;
+    border-radius: 5px;
+    /*background-image: url("../../images/gray.png");*/
+    /*background-color: #000;*/
+    padding: 15px;
+    color: #FFF;
+    box-shadow: 0px 0px 10px #000;
+    
+     background: #ffb76b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(50%,#ffa73d), color-stop(51%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */ 
+    
+    
+}
+/* TOOLTIP */

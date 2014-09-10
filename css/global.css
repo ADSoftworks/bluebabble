@@ -1,0 +1,264 @@
+/*
+This my friend, is the CSS.
+It's a styling method,
+this way I don't need photoshop for flippin' everything.
+
+Interested to know more?
+throw me an email at
+info@bobdesaunois.com
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+html {
+    
+}
+
+body {
+    font-family: 'Didact Gothic';
+    background-image: url("../images/html.png");
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    border-bottom: #AAA solid thin;
+}
+
+#logged_in_as {
+    position: absolute;
+    font-size: 40px;
+    color: #FF7F00;
+    margin-left: 10px;
+}
+
+#agree {
+    font-size: 10px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#title {
+    font-size: 60px;
+    color: #222;
+    margin-left: 50px;
+    width: 70%;
+    text-shadow: 0px 0px 5px #AAA;
+}
+    
+#main {
+    width: 400px;
+    display: none;
+    
+}
+
+p {
+    margin-left: 10px;
+    padding: 15px;
+    border-left: #AAA solid thin;
+}
+
+#footer {
+    position: fixed;
+    background-image: url("../images/gray.png");
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    border-top: #AAA solid medium;
+}
+
+.button {
+    border: #AAA solid thin;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+} .button:hover {
+    /* generated background */
+    background: #ff7f04; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff7f04 0%, #ff7c00 51%, #ffa73d 52%, #ffb76b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7f04), color-stop(51%,#ff7c00), color-stop(52%,#ffa73d), color-stop(100%,#ffb76b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f04', endColorstr='#ffb76b',GradientType=0 ); /* IE6-9 */
+    
+    color: #FFF;
+}
+
+#go-to-app {
+    border: #AAA solid thin;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 145px;
+   
+} #go-to-app:hover {
+    /* generated background */
+    background: #ff7f04; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff7f04 0%, #ff7c00 51%, #ffa73d 52%, #ffb76b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7f04), color-stop(51%,#ff7c00), color-stop(52%,#ffa73d), color-stop(100%,#ffb76b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f04', endColorstr='#ffb76b',GradientType=0 ); /* IE6-9 */
+    
+    color: #FFF;
+}
+
+#logout_button {
+    position: absolute;
+    border: #AAA solid thin;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: -46.95px;
+    right: 5%;
+} #logout_button:hover {
+    /* generated background */
+    background: #ff7f04; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff7f04 0%, #ff7c00 51%, #ffa73d 52%, #ffb76b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7f04), color-stop(51%,#ff7c00), color-stop(52%,#ffa73d), color-stop(100%,#ffb76b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f04', endColorstr='#ffb76b',GradientType=0 ); /* IE6-9 */
+    
+    color: #FFF;
+}
+
+#login_button {
+    position: absolute;
+/*    border: #AAA solid thin;*/
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: -65px;
+    right: 15%;
+   /*border: #AAA thin solid;*/
+} #login_button:hover {
+/*     background: #ff7f04;  Old browsers 
+    background: -moz-linear-gradient(top,  #ff7f04 0%, #ff7c00 51%, #ffa73d 52%, #ffb76b 100%);  FF3.6+ 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7f04), color-stop(51%,#ff7c00), color-stop(52%,#ffa73d), color-stop(100%,#ffb76b));  Chrome,Safari4+ 
+    background: -webkit-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%);  Chrome10+,Safari5.1+ 
+    background: -o-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%);  Opera 11.10+ 
+    background: -ms-linear-gradient(top,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%);  IE10+ 
+    background: linear-gradient(to bottom,  #ff7f04 0%,#ff7c00 51%,#ffa73d 52%,#ffb76b 100%);  W3C 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f04', endColorstr='#ffb76b',GradientType=0 );  IE6-9 
+    
+    color: #FFF*/
+}
+
+#footer {
+    text-align: center;
+    font-size: 10px;
+    color: #222;
+}
+
+.background {
+    /* generated background */
+    background: #ffb76b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(50%,#ffa73d), color-stop(51%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+}
+
+#login {
+    background-image: url("../images/gray.png");
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    text-align: center;
+    border: #FF7F00 dashed medium;
+}
+
+#loginForm {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 110px;
+}
+
+.login_input {
+    padding: 15px;
+    color: #000;
+    background-image: url("../images/html.png");
+    border: #CCC solid thin;
+    text-align: center;
+}
+
+#username {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+    border-bottom: #CCC solid thin;
+}
+
+#email {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#password_login {
+	border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#submit {
+    margin-top: 10px;
+    border-radius: 10px;
+}#submit:hover {
+    color: #FF7F00;
+}
+
+#login > h1 {
+    color: #FF7F00;
+}
+
+#response {
+    color: #000;
+    font-weight: 900;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#subTitle {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 55px;
+}
+
+#logout {
+    background-image: url('../images/gray.png');
+    border: #FF7F00 dashed medium;
+    padding: 20px;
+    height: 150px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 65px;
+} #logout > span {
+    font-size: 40px;
+    color: #FF7F00;
+    margin-top: -40px;
+    border-bottom: #AAA solid thin;
+} #logout > a {
+    color: #FF7F00;
+}#logout > a:hover {
+    color: #000;
+}
