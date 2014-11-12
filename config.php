@@ -2,8 +2,8 @@
 if(!isset($_SESSION))
     session_start();
 
-$db_username = "bluebabbleAdmin";
-$db_password = "kinetic";
+$db_username = "root";
+$db_password = "";
 
 $link = new PDO("mysql:host=localhost;dbname=bluebabble;", $db_username, $db_password);
 
@@ -11,11 +11,11 @@ ini_set("display_errors", "on"); //debug mode
 
 require_once("init.php");
 
-define(APP_NAME, "Bluebabble ALPHA");
-define(SLOGAN, "Connect with strangers like yourself");
-define(COMPANY, "Ragsmuffin Entertainment");
-define(STARTER_BOTTLES, 25);
-define(DEBUG_MODE, true); //debug mode (how obvious, lol)
+define("APP_NAME", "Bluebabble ALPHA");
+define("SLOGAN", "Connect with strangers like yourself");
+define("COMPANY", "Ragsmuffin Entertainment");
+define("STARTER_BOTTLES", 25);
+define("DEBUG_MODE", true); //debug mode (how obvious, lol)
 
 //classes
 require_once("obj/User_class.php");      //is a class

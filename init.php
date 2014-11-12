@@ -14,7 +14,7 @@ function setNotification($string) {
 
 function getNotification() {
     
-    if($_GET["notification"]) {
+    if(isset($_GET["notification"])) {
         setNotification($_GET["notification"]);
     }
     
