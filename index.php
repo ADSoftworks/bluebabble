@@ -4,42 +4,7 @@ if(isset($_SESSION["username"]))
     redirect("app");
 ?>
 <!DOCTYPE html>
-<!--
-
-Hello!
-I'm Bob Desaunois, lead programmer of BlueBabble.
-Well.. I'm actually the only programmer working on BlueBabble, hah.
-
-Either way this is a project of me and Samuel Aten.
-He manages the stuff and makes sure nothing goes down south.
-It's supposed to be a new way of making contact with other people.
-
-The idea is as following;
-This application gives you the opportunity to make contact
-with someone in our universe who is (most likely) on this planet.
-You don't know who this person is, and this person doesn't know who you are.
-for all you know you could be talking with the president of the united states.
-or with some creepy guy in a bad neighbourhood!
-
-the whole purpose of this?
-There isn't.
-It's just another thing to do.
-Because that's what we're looking for nowadays right?
-Just; things to do.
-
-By the way, what are you doing in the code?
-You're either lost, or interested in how I did this.
-If you are I have bad news though, all of our
-important code is done server-sided, so you unfortunately
-cannot see that.
-Yea, real bummer right?
-
-If you want to know more though do send me an email at
-info@bobdesaunois.com !
-
--->
-
-
+<!-- Oi! stop rummaging through my code! -->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -109,7 +74,7 @@ info@bobdesaunois.com !
                                 
                 <input class="background" id="go-to-app" type="button"
                        value="Go to app" />
-                                
+					   <br/>    
 
             </div>
             <!--main end-->
@@ -120,7 +85,8 @@ info@bobdesaunois.com !
             <!--footer begin-->
             <div id="footer">
                 Copyright by <?php echo COMPANY; ?>&copy;<br/>
-                All rights reserved.
+                All rights reserved.<br/>
+				<a href="TOS.php">TOS</a>
             </div>
             <!--footer end-->
 

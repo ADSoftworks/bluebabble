@@ -2,21 +2,21 @@
 if(!isset($_SESSION))
     session_start();
 	
-	ini_set("display_errors", "on"); //debug mode
+	ini_set("display_errors", "off"); //debug mode
 
 	
-$db_username = "CENSORED";
-$db_password = "CENSORED";
+$db_username = "bluebabs";
+$db_password = "845625";
 
-$link = new PDO("mysql:host=CENSORED;dbname=CENSORED;", $db_username, $db_password);
+$link = new PDO("mysql:host=newpresenceus.ipagemysql.com;dbname=bb1;", $db_username, $db_password);
 
 require_once("init.php");
 
-define("APP_NAME", "Bluebabble ALPHA");
+define("APP_NAME", "BlueBabble");
 define("SLOGAN", "Connect with strangers like yourself");
-define("COMPANY", "Ragsmuffin Entertainment");
-define("STARTER_BOTTLES", 25);
-define("DEBUG_MODE", true); //debug mode (how obvious, lol)
+define("COMPANY", "A&D Softworks");
+define("STARTER_BOTTLES", 1000000000);
+define("DEBUG_MODE", false); //debug mode (how obvious, lol)
 
 //classes
 require_once("obj/User_class.php");      //is a class
