@@ -368,7 +368,7 @@ Application Index
                             </div>
 
                             <div id="responses">
-                                <span id="span_response"><b>Your response:</b><br/></span>
+                                <span id="span_response"><b>Response:</b><br/></span>
                                 <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
                                     <textarea class="app_input" id="received_response" name="response_message" rows="5" cols="50"
                                               ><?php if(isset($response_message)) echo $response_message; ?></textarea><br/>
