@@ -5,10 +5,10 @@ if(!isset($_SESSION))
 	ini_set("display_errors", "on"); //debug mode
 
 	
-$db_username = "bluebabs";
-$db_password = "845625";
+$db_username = "CENSORED";
+$db_password = "CENSORED";
 
-$link = new PDO("mysql:host=newpresenceus.ipagemysql.com;dbname=bb1;", $db_username, $db_password);
+$link = new PDO("mysql:host=CENSORED;dbname=CENSORED;", $db_username, $db_password);
 
 require_once("init.php");
 
