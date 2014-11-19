@@ -1,13 +1,14 @@
 <?php
 if(!isset($_SESSION))
     session_start();
+	
+	ini_set("display_errors", "on"); //debug mode
 
-$db_username = "root";
-$db_password = "";
+	
+$db_username = "bluebabs";
+$db_password = "845625";
 
-$link = new PDO("mysql:host=localhost;dbname=bluebabble;", $db_username, $db_password);
-
-ini_set("display_errors", "on"); //debug mode
+$link = new PDO("mysql:host=newpresenceus.ipagemysql.com;dbname=bb1;", $db_username, $db_password);
 
 require_once("init.php");
 
