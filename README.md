@@ -1,4 +1,4 @@
 bluebabble
 ==========
 
-This is a really old and abandonned project which I might just revive sometime.
+A lightweight tool of communication that is very easy and free to use. Much like you could send a message in a bottle across the sea to some stranger in a faraway land.
