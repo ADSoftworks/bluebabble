@@ -59,9 +59,14 @@ if(isset($_SESSION["username"]))
                     you could send a message in a bottle across the sea to some 
                     stranger in a faraway land with <?php echo APP_NAME; ?> 
                     you’ll be able to send a virtual bottle across the sea of 
-                    technology. Try out <?php echo APP_NAME; ?> and connect with 
-                    strangers today!<br/><br/>
-                    Please keep in mind that this application is in alpha, it's 
+                    technology.<br/>
+                    However, there is a twist; once someone has received your message<br/>
+                    they get to reply to it which will be sent back to you.<br/>
+                    Just like you will be able to respond to someone else's bottled messages.<br/>
+                    Try out <?php echo APP_NAME; ?> and connect with 
+                    strangers today!
+                    <br/><br/>
+                    Please keep in mind that this application is in development, it's 
                     a work in progress and bugs may occure.<br/>
                     Some features are not finished or implemented yet.
                     <br/>
